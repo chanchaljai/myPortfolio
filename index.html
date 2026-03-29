@@ -10,105 +10,26 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        body {
-            background-color: rgb(0, 0, 33);
-            color: white;
-            font-family: "Open Sans", sans-serif;
-        }
-        nav {
-            background-color: rgb(0, 0, 67);
-            display: flex;
-            justify-content: space-around;
-            height: 60px;
-            align-items: center;
-        }
 
-        nav ul {
-
-            display: flex;
-            justify-content: center;
-
-        }
-
-        nav ul li {
-            list-style: none;
-            margin: 0px 23px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-        }
-
-        nav ul li a:hover {
-            color: blueviolet;
-            font-size: 1.02rem;
-        }
-
-        .left {
-            font-size: 1.5rem;
-        }
-
-        .firstSection {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            margin: 60px 0px;
-
-        }
-
-        .firstSection>div {
-            width: 30%;
-        }
-
-        .leftSection {
-            font-size: 2.2rem;
-
-        }
-
-        .rightSection {
-            border-radius: 205px;
-            overflow: hidden;
-
-        }
-
-        .rightSection img {
-            width: 100%;
-            height: 100%;
-
-        }
-
-        .purple {
-            color: blueviolet;
-        }
-        #element {
-            color: blueviolet;
-        }
-        .secondSection{
-            max-width: 80vw;
-            margin: auto;
-        }
-    </style>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+        
+  
 </head>
 <body>
     <header>
         <nav>
-            <div class="left">Chanchal's Portfolio</div>
+            <div class="left">Chanchal Jaiswal</div>
             <div class="right">
-
-            </div>
-            <ul>
+                <div id="menu-icon"><i class="ri-menu-line"></i></div>
+            <ul id="menu-list">
                 <li><a href="/">Home</a></li>
                 <li><a href="/">About</a></li>
                 <li><a href="/">Services</a></li>
                 <li><a href="/">Projects</a></li>
                 <li><a href="/">Contact Me</a></li>
             </ul>
+            </div>
         </nav>
     </header>
 
@@ -131,9 +52,10 @@
     <script>
         var typed = new Typed('#element', {
             strings: ['Software Engineer','MERN stack Developer','Full stack Developer'],
-            typeSpeed: 50,
+            typeSpeed: 40,
         });
     </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
